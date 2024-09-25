@@ -1,7 +1,7 @@
 import ListOfCats from '@/components/cats/list'
 import { getCatsFacts } from '@/services/cats'
 
-export default async function AboutPage () {
+export default async function ServerRenderPage () {
   const facts = await getCatsFacts()
 
   return (
