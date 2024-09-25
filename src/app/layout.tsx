@@ -22,7 +22,8 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Prueba de renderizado cliente y servidor',
   description:
-    'Explora como se renderizan las paginas tanto del servidor como en el cliente'
+    'Explora como se renderizan las paginas tanto del servidor como en el cliente',
+  manifest: '/manifest.json'
 }
 
 export default function RootLayout ({
