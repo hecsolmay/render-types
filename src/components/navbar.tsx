@@ -91,7 +91,7 @@ export const Navbar = () => {
               <div className='flex items-center justify-between'>
                 <div>
                   <Link href='/'>
-                    <Image src='/dark-logo.png' alt='' width={35} height={35} />
+                    <Image src='/assets/dark-logo.png' alt='' width={35} height={35} />
                   </Link>
                 </div>
                 <div className='-mr-2'>
