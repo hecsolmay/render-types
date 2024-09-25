@@ -52,7 +52,7 @@ export const Navbar = () => {
               className={
                 pathname === '/server'
                   ? 'text-base font-bold text-neutral-100 hover:text-neutral-200'
-                  : 'text-base font-semibold text-neutral-100 hover:text-neutral-300'
+                  : 'text-base font-medium text-neutral-100 hover:text-neutral-300'
               }
               href='/server'
             >
