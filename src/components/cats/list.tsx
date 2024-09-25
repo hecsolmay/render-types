@@ -1,7 +1,4 @@
-interface CatFact {
-  id: string
-  fact: string
-}
+import { type CatFact } from '@/types'
 
 interface ListOfCatsProps {
   facts: CatFact[]
