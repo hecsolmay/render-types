@@ -11,7 +11,7 @@ export default async function ServerRenderPage () {
           Cat&apos;s Facts.
         </h1>
         <p className='pb-4 text-xl text-neutral-100'>
-          AquÍ hay una lista de hechos de gatos.
+          AquÍ hay una lista de hechos de gatos traídos desde el servidor.
         </p>
         <section>
           <ListOfCats facts={facts} />

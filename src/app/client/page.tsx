@@ -8,7 +8,7 @@ export default function ClientRenderPage () {
           Cat&apos;s Facts.
         </h1>
         <p className='pb-4 text-xl text-neutral-100'>
-          AquÍ hay una lista de hechos de gatos.
+          AquÍ hay una lista de hechos de gatos traídos del lado del cliente.
         </p>
         <section>
           <ListOfCatsClient />
