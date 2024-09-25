@@ -4,6 +4,9 @@ import localFont from 'next/font/local'
 
 import './globals.css'
 import SplashLayout from '@/layouts/splash-layout'
+import { Navbar } from '@/components/navbar'
+import Social from '@/components/social'
+import Footer from '@/components/footer'
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -31,7 +34,12 @@ export default function RootLayout ({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-fill bg-[url('/assets/background.png')] bg-fixed bg-no-repeat antialiased`}
       >
-        <SplashLayout>{children}</SplashLayout>
+        <SplashLayout>
+          <Navbar />
+          <Social />
+          {children}
+          <Footer />
+        </SplashLayout>
       </body>
     </html>
   )
